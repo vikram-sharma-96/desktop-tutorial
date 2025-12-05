@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration Form</title>
+</head>
+<body>
+
+  <center><h1>Student Registration Form</h1></center>
+
+  <form method="post" action="submit_registration.php">
+    <label>Full Name:</label><br>
+    <input type="text" name="fullname" placeholder="Enter your full name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <label>Phone Number:</label><br>
+    <input type="tel" name="phone" placeholder="Enter your phone number" required><br><br>
+
+    <label>Course:</label><br>
+    <input type="text" name="course" placeholder="Enter your course name" required><br><br>
+
+    <label>Gender:</label><br>
+    <select name="gender" required>
+      <option value="">--Select--</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br><br>
+
+    <label>Address:</label><br>
+    <textarea name="address" rows="4" cols="30" placeholder="Enter your address" required></textarea><br><br>
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear">
+  </form>
+
+</body>
+</html>
