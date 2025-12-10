@@ -1,0 +1,25 @@
+.navbar{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+ a{
+    color: black;
+ }
+ li{
+    display: inline;
+ }
+ .outer{
+     background-color: aquamarine;
+     height: 400px;
+     width: 400px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .inner{
+    background-color: bisque;
+    height: 100px;
+    width: 100px;
+   
+ }
